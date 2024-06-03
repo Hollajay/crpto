@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.bodyContainer{
+    width: 100%;
+   
+
+}
+.chain_grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    margin-top: 8rem;
+   
+}
+.left_chain_grid{
+   padding:  0 30px;
+    height: 100%;
+    text-align: center;
+}
+.left_chain_grid p{
+    font-size: 45px;
+    color: orangered;
+
+}
+.right_chain_grid img{
+    width: 600px;
+
+}
+.coin_container {
+    margin: 4rem auto;
+    width: 80%;
+    color: whitesmoke;
+}
+.coin_container h1{
+    color: whitesmoke;
+    text-align: center;
+}
+.coin_container .heading{
+   
+    align-items: center;
+    background-color: #26272b;
+    border-radius: 8px;
+    box-shadow: 0 0 12px #18191b;
+    display: flex;
+    font-weight: 700;
+    justify-content: space-between;
+    margin: 2rem 1rem;
+    padding: .7rem 1rem;
+  
+}
+.link_tag{
+    width: 70%;
+}
+.coin-row{
+    align-items: center;
+    background-color: #26272b;
+    border-radius: 8px;
+    box-shadow: 0 0 12px #18191b;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 1rem;
+    padding: .7rem 1rem;
+    transform: scale(1);
+    transition: .5s ease;
+    cursor: pointer;
+    width: 80%;
+    margin: 2rem auto;
+}
+.coin-row:hover{
+    transform: scale(1.1);
+}
+.img_tag_coin{
+    display: flex;
+    align-items: center;
+}
+.img_tag_coin img{
+    width: 25px;
+}
+.img_tag_coin p{
+    margin-left: 1rem;
+}
+.row_data{
+   width: 100px;
+ 
+}
+@media screen and (max-width:770px) {
+    
+.chain_grid{
+
+    width: 100%;
+    height: 400px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+ background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://gold-project-dun.vercel.app/static/media/header.9d7dd4560510115eb9a5.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+   
+}
+.left_chain_grid{
+    
+   padding:  0px;
+  
+    text-align: center;
+}
+.left_chain_grid p{
+    font-size: 40px;
+    color: orangered;
+
+}
+.right_chain_grid{
+    display: none;
+}
+.right_chain_grid img{
+    width: 600px;
+
+}
+.coin_container {
+    margin: 4rem auto;
+    width: 100%;
+    color: whitesmoke;
+}
+.coin_container h1{
+    color: whitesmoke;
+    text-align: center;
+    font-size:25px;
+}
+.coin_container .heading{
+   
+    align-items: center;
+    background-color: #26272b;
+    border-radius: 8px;
+    box-shadow: 0 0 12px #18191b;
+    display: flex;
+    font-weight: 700;
+    justify-content: space-between;
+    margin: 2rem 1rem;
+    padding: .7rem 1rem;
+    font-size: 12px;
+  
+}
+.coin-row{
+    align-items: center;
+    background-color: #26272b;
+    border-radius: 8px;
+    box-shadow: 0 0 12px #18191b;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem auto;
+    padding: .3rem .9rem;
+    transform: scale(1);
+    transition: .5s ease;
+    font-size: 7px;
+    width: 85%;
+}
+.coin-row:hover{
+    transform: scale(1.05);
+    margin: 2rem auto;
+    padding: .3rem .4rem;
+}
+.img_tag_coin{
+    display: flex;
+    align-items: center;
+}
+.img_tag_coin img{
+    width: 20px;
+}
+.img_tag_coin p{
+    margin-left: .3rem;
+}
+.row_data{
+   width: 60px;
+ 
+}
+
+}
