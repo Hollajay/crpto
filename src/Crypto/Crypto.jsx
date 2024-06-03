@@ -8,7 +8,7 @@ export const Crypto = () => {
   return (
     <div className='nav_section'>
      <div className='nav_logo'>
-     <FaBitcoin size={30}/>
+      <div className='bitcoinIcon'><FaBitcoin size={30}/></div>
      <h1>coins</h1>
 
      </div>
@@ -17,7 +17,7 @@ export const Crypto = () => {
     <div className='auth_text'><h2>Auth coin</h2><FaArrowRight /></div>
    
 </div>
-<div>
+<div className='menuIcon'>
 {<TfiMenuAlt size={25}/>}
 </div>
 

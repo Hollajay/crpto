@@ -21,6 +21,17 @@
     color: orangered;
     font-size: 40px;
 }
+.bitcoinIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: .5rem;
+}
+.menuIcon{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
 .about_section{
     display: flex;
     justify-content: center;
@@ -57,6 +68,15 @@
         justify-content: space-around;
         align-items: center;
     
+    }
+    .bitcoinIcon {
+        /* Styles for smaller screens */
+        margin-right: 0rem;
+        transform: scale(0.5); /* You can adjust the scaling as needed */
+      }
+    .menuIcon{
+        transform: scale(0.5);
+
     }
     .nav_logo{
       display: flex;
