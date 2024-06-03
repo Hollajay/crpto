@@ -102,14 +102,13 @@
    
 }
 .left_chain_grid{
-    
    padding:  0px;
-  
-    text-align: center;
+    text-align: center;   
 }
 .left_chain_grid p{
     font-size: 40px;
     color: orangered;
+   
 
 }
 .right_chain_grid{
