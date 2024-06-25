@@ -150,10 +150,10 @@
     display: flex;
     justify-content: space-between;
     margin: 2rem auto;
-    padding: .3rem .9rem;
+    padding: .6rem .9rem;
     transform: scale(1);
     transition: .5s ease;
-    font-size: 7px;
+    font-size: 10px;
     width: 85%;
 }
 .coin-row:hover{
@@ -166,7 +166,7 @@
     align-items: center;
 }
 .img_tag_coin img{
-    width: 20px;
+    width: 25px;
 }
 .img_tag_coin p{
     margin-left: .3rem;
