@@ -36,7 +36,7 @@ axios.get("https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=
             </p>
             </div>
             <div className='right_chain_grid'>
-           <img src='https://gold-project-dun.vercel.app/static/media/header.9d7dd4560510115eb9a5.jpg' alt='image'/>
+           <img src='https://i.postimg.cc/0NLTYyWm/header-9d7dd4560510115eb9a5.avif' alt='image'/>
 
             </div>
         </div>
